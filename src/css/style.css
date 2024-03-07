@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+.button_hover{
+    border-radius: 5px;
+    cursor: pointer;
+    border-style: none;
+    transition: 0.5s;
+}
+
+.button_hover:hover{
+    background: rgb(46, 163, 241);
+    box-shadow: 0 5px 5px rgb(29, 155, 240);
+    color: #fff;
+}
+
+.text_query{
+    cursor: text;
+    border-radius: 5px;
+}
+
+.header-title{
+    text-shadow: 0 5px 10px  #e8b17d;
+}
+
+.track-query-title{
+    background-image: linear-gradient(to left, #0083b0, #36d1dc);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+
+.track-query-form{
+    margin-left: 40px;
+    margin-top: 24px;
+}
+
+.track-query-input-text{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.track-query-input-button{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+
+.section-flow-title{
+    background-image: linear-gradient(to left, #0083b0, #36d1dc);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+
+.section-flow-input-text{
+    margin-left: 10px;
+    font-size:20px;
+    border-radius: 5px;
+    background-image: linear-gradient(to left, #0083b0, #36d1dc);
+    border-style: none;
+    color: rgb(36, 35, 35);
+}
+
+.section-flow-input-button{
+    font-size: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.section-flow-form{
+    margin-left: 24px;
+}
+
+.section-flow-form-select{
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.view-model-title{
+    background-image: linear-gradient(to right, #B2FEFA, #0ED2F7);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight:bold;
+    font-size: 35px;
+    vertical-align: top;
+}
+
+.view-model-func{
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.view-model-position{
+    width: 40%;
+    float: right;
+    text-align: center;
+}
+
+.view-model-position-select{
+    font-size: 20px;
+    float: right;
+    height:30px;
+}
+
+.view-model-position-input{
+    font-size: 20px;
+    float: right;
+    background: rgb(63, 170, 242);
+    border-style: none;
+    color: #fff;
+    height: 30px;
+}
+
+.cesium-container-outer{
+    padding-top: 10px;
+    z-index: 1;
+}
+
+.cesium-container-inner{
+    height: 250px;
+    width: 500px;
+    z-index: 2;
+    position: absolute;
+    margin-top: 38px;
+}
+
+.section-speed-frame{
+    padding-top: 50px;
+}
+
+.section-speed-title{
+    background-image: linear-gradient(to left, #0083b0, #36d1dc);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+
+.section-speed-input{
+    margin-left: 10px;
+    margin-right: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(to left, #0083b0, #36d1dc);
+    border-style: none;
+    color: rgb(36, 35, 35);
+}
+
+.section-speed-select{
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.section-speed-input-func{
+    font-size: 20px;
+    display: none;
+}
+
+
+.important-info-title{
+    background-image: linear-gradient(to left, #0083b0, #36d1dc);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+
+.important-info-text{
+    color: rgb(238, 194, 33);
+}
+
+
+.device-manage-title{
+    background-image: linear-gradient(to left, #0083b0, #36d1dc);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+
+.device-manage-select{
+    font-size: 20px;
+    margin-left: 40px;
+    cursor: pointer;
+    background: rgb(89, 184, 248);
+    border-style: none;
+    color: #000;
+}
+
+.device-manage-num-left{
+    color: rgb(238, 194, 33);
+    padding-left: 10px;
+}
+
+.device-manage-num-right{
+    color: rgb(96, 152, 253);
+}
+
+
+.event-warning-title{
+    background-image: linear-gradient(to left, #0083b0, #36d1dc);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+
+.event-warning-input{
+    margin-left: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(to left, #0083b0, #36d1dc);
+    border-style: none;
+    color: rgb(36, 35, 35);
+}
+
+.event-warning-input-button{
+    font-size: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.no-select {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.view-model-switch {
+    vertical-align: bottom;
+    margin-bottom: 8px;
+}
+
+.view-model-show {
+    font-size: 20px;
+    background: rgb(63, 170, 242);
+    border-style: none;
+    color: #fff;
+    vertical-align: bottom;
+    margin-bottom: 8px;
+    height: 30px;
+    width: 400px;
+    margin-left: 10px;
+}

@@ -1,0 +1,12 @@
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+pnpm-lock.yaml
+
+node_modules
+public
+.idea
+.vscode
+
+
